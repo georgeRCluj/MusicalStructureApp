@@ -1,0 +1,204 @@
+<resources xmlns:app="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- The below line of code erases the shadow line from the app bar -->
+        <item name="android:windowContentOverlay">@null</item>
+
+    </style>
+
+    <!-- Tab Bar style CUSTOM TAB VIEW WITH VIEWPAGER -->
+    <!-- Style for a tab that displays a category name -->
+    <style name="CategoryTab" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabBackground">@color/colorPrimary</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <!-- The below attribute is used for the tab to fill the entire width of the screen -->
+        <item name="tabGravity">fill</item>
+        <!-- The below attribute indicates the height of the selector line. In this case is 0, so the selector line is canceled. -->
+        <item name="tabIndicatorHeight">0dp</item>
+    </style>
+
+    <style name="TabBarStyleText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingTop">@dimen/tab_bar_text_padding</item>
+        <item name="android:paddingBottom">@dimen/tab_bar_text_padding</item>
+        <item name="android:paddingLeft">@dimen/tab_bar_text_left_right</item>
+        <item name="android:paddingRight">@dimen/tab_bar_text_left_right</item>
+        <item name="android:textColor">@color/backgroundColor</item>
+        <item name="android:textSize">@dimen/standard_text_size</item>
+    </style>
+
+    <style name="TabBarStyleImage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleX">1.3</item>
+        <item name="android:scaleY">1.3</item>
+    </style>
+
+    <style name="TabBarStyleLayout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">@dimen/tab_bar_padding_above</item>
+    </style>
+
+    <!-- TAB 1 -->
+    <!-- Button style -->
+    <style name="Tab1ButtonStyleLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/tab1_button_pressed_selector</item>
+        <item name="android:layout_marginBottom">@dimen/tab_1_distance_between_buttons</item>
+        <item name="android:layout_marginLeft">@dimen/tab_1_left_right_margin</item>
+        <item name="android:layout_marginRight">@dimen/tab_1_left_right_margin</item>
+        <item name="android:padding">@dimen/tab_1_buttons_vertical_padding</item>
+    </style>
+
+    <style name="Tab1ButtonStyleText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textColor">@color/backgroundColor</item>
+        <item name="android:textSize">@dimen/tab_1_buttons_text_size</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Tab1ButtonStyleImage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <style name="Tab1ButtonStyleLayoutNext" parent="Tab1ButtonStyleLayout">
+        <item name="android:layout_marginBottom">@dimen/tab_1_distance_between_buttons_next_back
+        </item>
+        <item name="android:layout_marginTop">@dimen/tab_1_top_margin_next_button</item>
+    </style>
+
+    <style name="Tab1ButtonStyleLayoutBackButton" parent="Tab1ButtonStyleLayout">
+        <item name="android:background">@drawable/tab1_button_pressed_selector_back</item>
+        <item name="android:layout_marginBottom">@dimen/tab_1_back_button_bottom_margin</item>
+    </style>
+
+    <style name="Tab1ButtonStyleTextBackButton" parent="Tab1ButtonStyleText">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="Tab1ButtonStyleImageBackButton" parent="Tab1ButtonStyleImage">
+        <item name="android:layout_alignParentRight">false</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+
+    <!-- EditText Box style -->
+    <style name="Tab1EditTextDescriptionAboveBox">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/tab_1_left_right_margin</item>
+        <item name="android:layout_marginTop">@dimen/tab_1_top_margin</item>
+        <item name="android:layout_marginBottom">@dimen/tab_1_bottom_margin</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/tab_1_edit_text_size</item>
+    </style>
+
+    <style name="Tab1EditTextBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/tab_1_edit_text_padding</item>
+        <item name="android:layout_marginLeft">@dimen/tab_1_left_right_margin</item>
+        <item name="android:layout_marginRight">@dimen/tab_1_left_right_margin</item>
+        <item name="android:textSize">@dimen/tab_1_edit_text_size</item>
+        <item name="android:inputType">textCapCharacters</item>
+        <item name="android:imeOptions">actionDone</item>
+        <item name="android:background">@drawable/tab1_edit_text_box</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+
+    <style name="Tab1EditTextBoxMessageAssistant" parent="Tab1EditTextBox">
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginTop">@dimen/tab_1_top_margin</item>
+        <item name="android:gravity">top</item>
+        <item name="android:inputType">textCapSentences</item>
+    </style>
+
+    <!-- TextView style -->
+    <style name="Tab1TextViewStyle" parent="Tab1EditTextDescriptionAboveBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginRight">@dimen/tab_1_left_right_margin</item>
+    </style>
+
+    <!-- Checkbox style -->
+    <style name="Tab1CheckBoxStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/tab_1_left_right_margin</item>
+        <item name="android:textSize">@dimen/tab_1_buttons_text_size</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:layout_marginTop">@dimen/tab_1_top_margin</item>
+        <item name="android:paddingLeft">@dimen/tab_1_checkbox_left_padding</item>
+        <item name="android:button">@drawable/tab1_checkbox_style</item>
+    </style>
+
+    <!-- TAB 2 -->
+    <!-- List items style -->
+    <style name="Tab2StationStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/tab_1_edit_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Tab2TimeStyle" parent="@style/Tab2StationStyle">
+        <item name="android:paddingTop">@dimen/tab_bar_padding_above</item>
+        <item name="android:paddingBottom">@dimen/tab_bar_padding_above</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Tab2StatusStyle" parent="@style/Tab2StationStyle">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <!-- Requests styles -->
+    <style name="Tab2TitleStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/tab_1_edit_text_size</item>
+        <item name="android:layout_marginTop">@dimen/tab_1_edit_text_size</item>
+
+    </style>
+
+    <style name="Tab2DetailsStyle" parent="Tab2TitleStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">0dp</item>
+    </style>
+
+    <style name="Tab2ButtonStyleLayoutNext" parent="Tab1ButtonStyleLayout">
+        <item name="android:layout_marginTop">@dimen/tab_2_top_margin_button</item>
+        <item name="android:layout_marginBottom">@dimen/tab_2_top_margin_button</item>
+    </style>
+
+    <!-- TAB 3 -->
+    <!-- Buttons style -->
+    <style name="Tab3ButtonStyleLayout" parent="Tab1ButtonStyleLayout">
+        <item name="android:layout_marginTop">@dimen/tab_3_top_margin</item>
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
+
+    <style name="Tab3ButtonStyleSave" parent="Tab1ButtonStyleLayoutNext">
+        <item name="android:layout_marginBottom">@dimen/tab_3_bottom_margin
+        </item>
+    </style>
+</resources>

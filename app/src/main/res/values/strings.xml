@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Media Player</string>
+    <string name="Fragment_1_name">Songs</string>
+    <string name="Fragment_2_name">Playlists</string>
+    <string name="Fragment_3_name">Artists</string>
+    <string name="Fragment_4_name">Store</string>
+
+    <string name="Play_song_page_title">Play song</string>
+    <string name="Purchase_song_page_title">Purchase song</string>
+
+    <string name="tab_1_text">Songs</string>
+    <string name="tab_2_text">Playlists</string>
+    <string name="tab_3_text">Artists</string>
+    <string name="tab_4_text">Store</string>
+
+    <string name="tab_1_body">Here will appear a list with all songs; when the user clicks on one of the songs, a new activity will open which will play the selected song.
+        \nPlease click on this text view.</string>
+    <string name="tab_1_body_from_playlists">It will show a list with songs from the selected playlist; when the user clicks on one of the songs, a new activity will open
+        which will play the selected song. \nPlease click on this text view.</string>
+    <string name="tab_1_body_from_artists">It will show a list with songs sung by the selected artist; when the user clicks on one of the songs, a new activity will open
+        which will play the selected song. \nPlease click on this text view.</string>
+    <string name="tab_2_body">Here will appear a list of playlists. When the user clicks on one of the lists, will be directed to the page with Songs which are
+        contained in the selected playlist.\nPlease click on this text view.</string>
+    <string name="tab_3_body">Here will appear a list of artists. When the user clicks on one of the artists, will be directed to the page with Songs which are sung
+        by the certain artist.\nPlease click on this text view.</string>
+    <string name="tab_4_body">Here will appear a list of songs that can be purchased by the user. There will be more filters available (search by music genre, artist, song name).
+        When the user selects the song that intents to purchase, a payment activity will open. Please click on this text view. </string>
+
+    <string name="play_song_body">Here the user can see the song details and play it.</string>
+    <string name="purchase_song_body">Here the user can purchase the song with PayU money Gateway \n[public class PayUMoneyActivity extends AppCompatActivity]</string>
+
+</resources>

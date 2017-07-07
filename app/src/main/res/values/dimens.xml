@@ -1,0 +1,47 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- General Paddings & Margins & heights-->
+    <dimen name="tab_bar_text_padding">16dp</dimen>
+    <dimen name="tab_bar_text_left_right">3dp</dimen>
+    <dimen name="tab_bar_padding_above">8dp</dimen>
+    <dimen name="tab_2_list_items_padding_vertical">4dp</dimen>
+    <dimen name="tab_2_list_items_layout_padding_horizontal">25dp</dimen>
+    <dimen name="tab_2_list_items_layout_padding_vertical">15dp</dimen>
+    <dimen name="tab_2_list_items_min_height">100dp</dimen>
+
+    <!-- TAB 1 - ALL DIMENSIONS -->
+    <dimen name="tab_1_distance_between_buttons">48dp</dimen>
+    <dimen name="tab_1_distance_between_buttons_next_back">16dp</dimen>
+    <dimen name="tab_1_buttons_text_size">24sp</dimen>
+    <dimen name="tab_1_left_right_margin">24dp</dimen>
+    <dimen name="tab_1_top_margin">24dp</dimen>
+    <dimen name="tab_1_back_button_bottom_margin">24dp</dimen>
+    <dimen name="tab_1_top_margin_next_button">40dp</dimen>
+    <dimen name="tab_1_bottom_margin">8dp</dimen>
+    <dimen name="tab_1_buttons_vertical_padding">8dp</dimen>
+    <dimen name="tab_1_edit_text_size">20sp</dimen>
+    <dimen name="tab_1_edit_text_size_medium">16sp</dimen>
+    <dimen name="tab_1_edit_text_padding">16dp</dimen>
+    <dimen name="tab_1_checkbox_left_padding">16dp</dimen>
+    <dimen name="tab_1_checkbox_size">24dp</dimen>
+    <dimen name="tab_1_checkbox_top_margin">40dp</dimen>
+
+    <!-- TAB 2 - ALL DIMENSIONS -->
+    <dimen name="tab_2_top_margin_button">16dp</dimen>
+    <dimen name="tab_2_rating_bar_top_margin">16dp</dimen>
+
+    <!-- TAB 3 - ALL DIMENSIONS -->
+    <dimen name="tab_3_top_margin">8dp</dimen>
+    <dimen name="tab_3_bottom_margin">32dp</dimen>
+
+    <!-- Text sizes -->
+    <dimen name="standard_text_size">16sp</dimen>
+
+    <!-- Tabs dimensions -->
+    <dimen name="tab_min_height">85dp</dimen>
+
+
+</resources>
