@@ -26,7 +26,8 @@
     <string name="tab_4_body">Here will appear a list of songs that can be purchased by the user. There will be more filters available (search by music genre, artist, song name).
         When the user selects the song that intents to purchase, a payment activity will open. Please click on this text view. </string>
 
-    <string name="play_song_body">Here the user can see the song details and play it.</string>
+    <string name="play_song_body">Here the user can see the song details and play it. \n\nWe will use the MediaPlayer class (https://developer.android.com/reference/android/media/MediaPlayer.html)
+        in order to implement the play functionality.</string>
     <string name="purchase_song_body">Here the user can purchase the song with PayU money Gateway \n[public class PayUMoneyActivity extends AppCompatActivity]</string>
 
 </resources>
